@@ -15,7 +15,8 @@ Breakdown of project and its dependencies:-
 ## Usage
 - Naviagte to the cloned repository.
 - Run pip install -r requirements.txt
-- Run scrapy crawl crypto
+- Run `scrapy crawl crypto`
+- If u want to save scraped data in a file, run `scrapy crawl crypto -o items.json`
 
 ## Working On
 - Storing data on cloud database(MongoDb Atlas)
